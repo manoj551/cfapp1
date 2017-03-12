@@ -1,0 +1,8 @@
+---
+applications:
+- name: cfapp1
+  buildpack: staticfile_buildpack
+  memory: 128M
+  instances: 1
+  host: cfapp1
+  domain: mybluemix.net
